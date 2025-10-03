@@ -1,0 +1,24 @@
+[project]
+name = "aml-dynamicpredictor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
+    "openpyxl>=3.1.5",
+    "optuna>=4.5.0",
+    "pandas>=2.3.2",
+    "pyswarm>=0.6",
+    "pytorch-tabnet>=4.1.0",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "xgboost>=3.0.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
